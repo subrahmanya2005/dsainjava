@@ -4,7 +4,7 @@ public class Main24 {
 
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
-                // Calculate distance from all 4 boundaries
+            
                 int top = i;
                 int left = j;
                 int bottom = (2 * n - 2) - i;
@@ -13,7 +13,6 @@ public class Main24 {
               
                 int minDistance = Math.min(Math.min(top, bottom), Math.min(left, right));
 
-                // Value is n minus the minimum distance
                 System.out.print((n - minDistance) + " ");
             }
             System.out.println();
