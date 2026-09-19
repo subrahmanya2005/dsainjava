@@ -10,7 +10,7 @@ public class Main24 {
                 int bottom = (2 * n - 2) - i;
                 int right = (2 * n - 2) - j;
 
-                // Find the minimum distance
+              
                 int minDistance = Math.min(Math.min(top, bottom), Math.min(left, right));
 
                 // Value is n minus the minimum distance
