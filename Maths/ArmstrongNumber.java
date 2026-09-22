@@ -1,6 +1,6 @@
 
 class ArmstrongNumber {
-
+// ArmstrongNumber
     public static void main(String[] args) {
         int n = 1;
         int temp=n;
