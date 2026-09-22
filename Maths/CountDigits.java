@@ -1,6 +1,7 @@
 
 class CountDigits {
     //CountDigits
+    //
 
     public static void main(String[] args) {
         int n = 7777;
