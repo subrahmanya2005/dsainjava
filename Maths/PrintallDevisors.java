@@ -7,6 +7,7 @@ class PrintAllDivisors {
 
     static void printAllDivisors(int n) {
         //done
+        //fonen
 
         for (int i = 1; i <= Math.sqrt(n); i++) {
 
