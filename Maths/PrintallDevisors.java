@@ -6,6 +6,7 @@ class PrintAllDivisors {
     static ArrayList<Integer> list = new ArrayList<>();
 
     static void printAllDivisors(int n) {
+        //done
 
         for (int i = 1; i <= Math.sqrt(n); i++) {
 
