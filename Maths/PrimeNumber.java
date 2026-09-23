@@ -4,6 +4,7 @@ class PrimeNumber {
     public static void main(String[] args) {
         boolean isPrime=true;
         int n = 7;
+
         if(n<=1){
             isPrime=false;
         }
